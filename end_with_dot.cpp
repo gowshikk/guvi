@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 	
    char str[100];
-   cin>>str;
+   cin.get(str, 100);
    if(isalpha(str[0]))
    {
        cout<<str<<".";
