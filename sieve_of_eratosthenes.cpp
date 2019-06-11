@@ -26,7 +26,7 @@ int main() {
 	        }
 	    }
 	}
-	for(i=start+1;i<end;i++)
+	for(i=start;i<=end;i++)
 	{
 	    if(prime[i])
 	        cout<<i<<" ";
