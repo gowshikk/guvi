@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 	
-	long int start,end;
+	long int start,end,count=0;
 	cin>>start;
 	cin>>end;
 	int i,j;
@@ -29,8 +29,9 @@ int main() {
 	for(i=start;i<=end;i++)
 	{
 	    if(prime[i])
-	        cout<<i<<" ";
+	        count++;
 	}
+		cout<<count;
 	}
    return 0;
 }
